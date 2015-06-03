@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--attrs-->
+    <color name="primary">#536dfe</color>
+    <color name="primary_dark">#3f51b5</color>
+    <color name="primary_light">#D7CCC8</color>
+    <color name="accentColor">#FF4081</color>
+    <color name="accentColorDark">#d13670</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--text-->
+    <color name="primary_text_dark">#212121</color>
+    <color name="secondary_text_dark">#727272</color>
+    <color name="disable_text_dark">#FBFBFB</color>
+
+    <color name="primary_text_light">#FFFFFF</color>
+    <color name="secondary_text_light">#FDFDFD</color>
+    <color name="disable_text_light">#B8B8B8</color>
+
+    <!--icons-->
+    <color name="icons_light">#FFFFFF</color>
+    <color name="icons_dark">#727272</color>
+    <color name="divider_light">#F9F9F9</color>
+    <color name="divider_dark">#DADADA</color>
+
+    <!-- material color -->
+    <color name="grey_light">#EDEDED</color>
+    <color name="red_500">#e51c23</color>
+    <color name="red_200">#ff5177</color>
+    <color name="pink_500">#e91e63</color>
+    <color name="pink_200">#ff4081</color>
+    <color name="purple_500">#9c27b0</color>
+    <color name="purple_200">#e040fb</color>
+    <color name="deep_purple_500">#673ab7</color>
+    <color name="deep_purple_200">#7c4dff</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="indigo_200">#536dfe</color>
+    <color name="blue_500">#5677fc</color>
+    <color name="blue_200">#6889ff</color>
+    <color name="light_blue_500">#03a9f4</color>
+    <color name="light_blue_200">#03a9f4</color>
+    <color name="cyan_500">#00bcd4</color>
+    <color name="cyan_200">#18ffff</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_200">#64ffda</color>
+    <color name="green_500">#259b24</color>
+    <color name="green_200">#5af158</color>
+    <color name="light_green_500">#8bc34a</color>
+    <color name="light_green_200">#b2ff59</color>
+    <color name="lime_500">#cddc39</color>
+    <color name="lime_200">#cddc39</color>
+    <color name="yellow_500">#ffff00</color>
+    <color name="yellow_200">#ffff00</color>
+    <color name="amber_500">#ffc107</color>
+    <color name="amber_200">#ffd740</color>
+    <color name="orange_500">#ff9800</color>
+    <color name="orange_200">#ffab40</color>
+    <color name="deep_orange_500">#ff9800</color>
+    <color name="deep_orange_200">#ffab40</color>
+
+</resources>

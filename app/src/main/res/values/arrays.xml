@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tab_menu" translatable="false">
+        <item>Design</item>
+        <item>Code</item>
+        <item>Android</item>
+    </string-array>
+
+
+</resources>

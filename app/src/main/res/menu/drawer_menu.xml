@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_home"
+            android:checked="true"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/drawer_favourite"
+            android:icon="@drawable/ic_action_favorite"
+            android:title="@string/favourite" />
+
+        <item
+            android:id="@+id/drawer_contact"
+            android:icon="@drawable/ic_action_assignment_ind"
+            android:title="@string/contact" />
+
+
+        <!--section header, but i don't know why not selected-->
+        <!--<item-->
+        <!--android:id="@+id/section"-->
+        <!--android:title="@string/section">-->
+        <!--<menu>-->
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@drawable/ic_action_settings_applications"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/drawer_help"
+            android:icon="@drawable/ic_action_help"
+            android:title="@string/help" />
+        <!--</menu>-->
+        <!--</item>-->
+    </group>
+</menu>
