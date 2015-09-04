@@ -10,6 +10,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 import com.balysv.materialmenu.MaterialMenuDrawable;
 
@@ -20,12 +21,14 @@ import net.derohimat.sample.fragment.HomeFragment;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
+import butterknife.OnClick;
 
 public class MainActivity extends BaseActivity {
 
     @InjectView(R.id.toolbar)    Toolbar mToolbar;
     @InjectView(R.id.navigationView)    NavigationView mNavigationView;
     @InjectView(R.id.drawerLayout)    DrawerLayout mDrawerLayout;
+    @InjectView(R.id.bgContent)    ImageView mBgContent;
 
     private BaseFragment fragment;
     private FragmentManager fragmentManager;
@@ -81,6 +84,11 @@ public class MainActivity extends BaseActivity {
                 return false;
             }
         });
+    }
+
+    @OnClick(R.id.bgContent)
+    public void onBgProfileCick(){
+        ProfileActivity.start(mContext);
     }
 
     @Override

@@ -2,19 +2,26 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="172dp"
-    android:background="@color/primary"
+    android:layout_height="200dp"
     android:orientation="vertical"
-    android:paddingTop="@dimen/view_padding_big"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/bgContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
 
     <com.makeramen.roundedimageview.RoundedImageView
         android:id="@+id/imgDrawer"
         android:layout_width="78dp"
         android:layout_height="78dp"
+        android:layout_marginLeft="@dimen/view_padding_horizontal"
+        android:layout_marginRight="@dimen/view_padding_horizontal"
+        android:layout_marginTop="@dimen/view_padding_huge"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_account"
-        android:layout_margin="@dimen/view_padding"
         app:riv_border_color="@color/white"
         app:riv_border_width="2dip"
         app:riv_corner_radius="30dip"
@@ -25,19 +32,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/email"
-        android:layout_marginLeft="@dimen/view_padding"
-        android:layout_marginStart="@dimen/view_padding"
+        android:layout_marginLeft="@dimen/view_padding_horizontal"
+        android:layout_marginRight="@dimen/view_padding_horizontal"
         android:text="Username"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="@dimen/view_padding"
-        android:layout_marginLeft="@dimen/view_padding"
-        android:layout_marginStart="@dimen/view_padding"
+        android:layout_marginBottom="@dimen/view_padding_horizontal"
+        android:layout_marginLeft="@dimen/view_padding_horizontal"
+        android:layout_marginRight="@dimen/view_padding_horizontal"
         android:text="username@mymail.com"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 

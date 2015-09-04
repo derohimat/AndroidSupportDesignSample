@@ -6,17 +6,17 @@
             android:id="@+id/drawer_home"
             android:checked="true"
             android:icon="@drawable/ic_action_home"
-            android:title="@string/home" />
+            android:title="@string/home"/>
 
         <item
             android:id="@+id/drawer_favourite"
             android:icon="@drawable/ic_action_favorite"
-            android:title="@string/favourite" />
+            android:title="@string/favourite"/>
 
         <item
             android:id="@+id/drawer_contact"
             android:icon="@drawable/ic_action_assignment_ind"
-            android:title="@string/contact" />
+            android:title="@string/contact"/>
 
 
         <!--section header, but i don't know why not selected-->
@@ -27,12 +27,12 @@
         <item
             android:id="@+id/drawer_settings"
             android:icon="@drawable/ic_action_settings_applications"
-            android:title="@string/settings" />
+            android:title="@string/settings"/>
 
         <item
             android:id="@+id/drawer_help"
             android:icon="@drawable/ic_action_help"
-            android:title="@string/help" />
+            android:title="@string/help"/>
         <!--</menu>-->
         <!--</item>-->
     </group>
